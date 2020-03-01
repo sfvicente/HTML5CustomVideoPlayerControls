@@ -4,14 +4,20 @@
 
 <p>This component demonstrates how to add custom controls to an HTML5 video player.</p>
 
-<div>
-    <div>
-        <p>
-            <video width="640" height="480" controls>
-                <source src="/SimpleSimon1935.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </p>
+<div class="container">
+    <div class="c-video">
+        <video class="video" width="640" height="480">
+            <source src="/SimpleSimon1935.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="controls">
+            <div class="orange-bar">
+                <div class="orange-juice"></div>
+            </div>
+            <div class="buttons">
+                <button id="play-pause"></button>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -19,10 +25,12 @@
 <p>Simple Simon is a 1935 ComiColor Cartoons animated short film produced by Ub Iwerks. It is a humorous retelling of the classic nursery rhyme. This short film was released on November 15, 1935.</p>
 
 <h5>Synopsis</h5>
-<p>Simple Simon uses as rod with a white duck to get a pie up to him. Simon tries to eat the pie and the seller throws him and the duck out and a sign that says "Room For Rent" and closes the door.
+<p>
+    Simple Simon uses as rod with a white duck to get a pie up to him. Simon tries to eat the pie and the seller throws him and the duck out and a sign that says "Room For Rent" and closes the door.
     The Mother Goose characters walk past Simon and are going to the Faire. Simon meets a chef to try his samples. The chef chases Simon to the Judges Stand. Simon climbs up a ladder and jumps in the water.
     He climbs up a giraffe and jumps past acrobats. Simon is in a shack with a lion. Simon disguised himself as an Arabian prince. Simon hugs a duck and the judges come to him.
-    The judges put coins in Simon's hat and the lion chases the chef away.</p>
+    The judges put coins in Simon's hat and the lion chases the chef away.
+</p>
 
 @code {
 
